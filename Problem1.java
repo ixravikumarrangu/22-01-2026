@@ -5,14 +5,14 @@ class Solution{
         this.num=num;
     }
     public String check_sign(){
-        if(this.num<0)
+        if(num<0)
             return "Negative";
-        if(this.num>0)
+        if(num>0)
             return "Positive";
         return "Zero";
     }
     public boolean even_odd(){
-        return (this.num%2==0);
+        return (num%2==0);
     }
 }
 public class Problem1{
