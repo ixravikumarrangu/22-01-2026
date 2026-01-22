@@ -15,7 +15,7 @@ class Solution{
         return (this.num%2==0);
     }
 }
-class Problem1{
+public class Problem1{
     public static void main(String[] args){
         Scanner sc =new Scanner(System.in);
         int num=sc.nextInt();
