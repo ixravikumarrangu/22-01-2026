@@ -1,4 +1,6 @@
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
 class Employee{
     int id;
     String name;
@@ -16,7 +18,8 @@ class Employee{
         System.out.println(
             "Employee Id: "+this.id+"\n"+
             "Name :"+this.name+"\n"+
-            "Annual Salary :"+calculateAnualSalary()
+            "Annual Salary :"+calculateAnualSalary()+
+            "Company :"+companyName
         );
     }
 }
